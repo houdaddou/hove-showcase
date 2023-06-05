@@ -1,0 +1,17 @@
+{
+    "title": "JSON content used at build time with Gatsby",
+    "content": [
+      {
+        "item": "test1"
+      },
+      {
+        "item": "test2"
+      },
+      {
+        "item": 192.33
+      },
+      {
+        "item": 111111
+      }
+    ]
+  }
