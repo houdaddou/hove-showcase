@@ -7,7 +7,7 @@ export default function Navbar() {
         <img src={'/hove.jpg'} alt="h"></img>
         <div className="links">
             <Link to="/">ACCEUIL</Link> 
-            <Link to="/">NOS SOLUTIONS</Link> 
+            <Link to="/solutions">NOS SOLUTIONS</Link> 
             <Link to="/about">QUI SOMMES-NOUS?</Link>
             <Link to="/projects">ACTUALITES</Link>  
             <Link to="/projects">CONTACT</Link>   

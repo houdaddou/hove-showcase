@@ -11,12 +11,6 @@ export default function Home() {
     <Layout>
     <section className={styles.header}>
       <div>
-        {/* <h2>Salut Houda !</h2>
-        <Link className={styles.btn} to='/projects'>Hove Project</Link>
-        <img src={'/hove.jpg'} alt="Hove"></img> */}
-        {/* <Autocomplete
-  id="combo-box-demo"
-  label="Test" /> */}
       </div>
     </section>
     </Layout>
