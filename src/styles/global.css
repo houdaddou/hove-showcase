@@ -4,7 +4,6 @@
   margin: 0;
   padding: 0;
   text-decoration: none;
-  font-family: "Montserrat";
 }
 html, body {
   min-height: 100%;
@@ -12,12 +11,10 @@ html, body {
 body {
   background-repeat: no-repeat;
 }
-p {
-  margin: 16px auto;
-  line-height: 1.5em;
-}
 
-/* layout & nav */
+.content {
+  margin: 60px;
+}
 .layout {
   margin: 0 auto;
 }

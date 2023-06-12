@@ -59,6 +59,41 @@ header a:hover {
     font-weight: 700;
   }
 
+  .TranslateFr {
+    width: 35px;
+    height: 35px;
+    border-radius: 5px 0px 0px 5px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    align-items: center;
+    text-transform: uppercase;
+    color: #002830;
+    border: 4px solid #D7D2CB;
+    opacity: 0.5;
+  }
+  .TranslateEn {
+    width: 35px;
+    height: 35px;
+    border-radius: 0px 5px 5px 0px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    align-items: center;
+    text-transform: uppercase;
+    color: #002830;
+    border: 4px solid #D7D2CB;
+    opacity: 0.5;
+    margin-left: -50px;
+  }
+  .TranslateSlider {
+    flex: none;
+    order: 1;
+    flex-grow: 0
+  }
+
 @media (min-width: 768px) {
     .Header {
         padding: 0;
