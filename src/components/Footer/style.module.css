@@ -1,0 +1,62 @@
+.Footer {
+    height: 165px;;
+    background: #002830;
+    border-top: none;
+    bottom: -3px;
+}
+
+.ContentWrapper {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+    gap: 1rem;
+}
+
+.FooterLogo  {
+    margin-left: 60px;
+}
+
+.LinkedInProfile {
+    margin-right: 60px;
+}
+
+.Links {
+    width: auto;
+    flex-direction: row;
+    justify-content: space-between;
+    order: 0;
+    flex-grow: 0;
+    margin-bottom: 71.5px;
+    margin-top: 74.5px;
+    text-align: right;
+}
+
+.Links a {
+    width: 113px;
+    height: 18px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+
+@media (min-width: 768px) {
+    .Footer {
+        padding: 0;
+    }
+    .ContentWrapper {
+        flex-direction: row;
+        align-items: center;
+    }
+    .Links a {
+        margin-right: 4rem;
+    }
+}
