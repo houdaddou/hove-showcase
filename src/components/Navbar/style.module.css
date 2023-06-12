@@ -1,0 +1,69 @@
+.Header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    height: 98px;
+    background: rgba(215, 210, 203, 0.3);
+    box-shadow: 0px 2px 8px rgba(0, 40, 48, 0.3);
+    backdrop-filter: blur(2px);
+}
+
+.ContentWrapper  {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Links {
+    width: auto;
+    flex-direction: row;
+    justify-content: space-between;
+    order: 0;
+    flex-grow: 0;
+    margin-bottom: 71.5px;
+    margin-top: 74.5px;
+    text-align: right;
+}
+
+.Links a {
+    margin-left: 10px;
+    width: 113px;
+    height: 18px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    align-items: center;
+    color: rgba(0, 40, 48, 1);
+    align-items: center;
+    text-transform: uppercase;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    opacity: 0.5;
+    font-family: "Montserrat";
+
+}
+
+.HeaderLogo {
+    margin-left: 60px;
+}
+
+header a:hover {
+    color: rgba(0, 40, 48, 1);
+    opacity: 1;
+    font-weight: 700;
+  }
+
+@media (min-width: 768px) {
+    .Header {
+        padding: 0;
+    }
+    .Links a {
+        margin-right: 4rem;
+    }
+}

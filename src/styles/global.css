@@ -19,38 +19,5 @@ p {
 
 /* layout & nav */
 .layout {
-  max-width: 1700px;
   margin: 0 auto;
-}
-nav {
-  display: grid;
-  margin: 40px auto;
-}
-nav .links {
-  display: inline-block;
-  text-align: right;
-}
-nav a {
-  margin-left: 50px;
-  font-weight: 700;
-  height: 18px;
-  color: rgba(0, 40, 48, 1);
-  align-items: center;
-  text-transform: uppercase;
-  flex: none;
-  order: 2;
-  flex-grow: 0;
-  opacity: 0.5;
-}
-nav a:hover {
-  color: rgba(0, 40, 48, 1);
-  opacity: 1;
-}
-/* nav img {
-  margin-top: 50px;
-} */
-footer p{
-  text-align: center;
-  color: #bbb;
-  margin: 40px auto;
 }
