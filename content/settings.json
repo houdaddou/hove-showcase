@@ -1,0 +1,14 @@
+{
+  "siteMetadata": {
+    "avatar": "../content/images/linkedin.png",
+    "social": {
+      "linkedin": "https://www.linkedin.com/company/hovedata/mycompany/verification/"
+    }
+  },
+  "siteConfiguration": {
+    "linkedin": {
+      "text": "linkedin",
+      "image": "../content/images/linkedin.png"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+    "solutions": {
+      "navitia": {
+        "title": "Navitia",
+        "subtitle": "Le calculateur d'itinéraire",
+        "projects": [
+          { "label": "Navita API", "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nec nibh pretium, viverra nisi quis, imperdiet turpis. Aliquam facilisis, augue vitae sollicitudin fermentum, dui urna bibendum felis, eu consequat nisl neque lacinia ex. Pellentesque sit amet ullamcorper dolor. Suspendisse et bibendum velit.", "url": "/" },
+          { "label": "Traffic Report", "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nec nibh pretium, viverra nisi quis, imperdiet turpis. Aliquam facilisis, augue vitae sollicitudin fermentum, dui urna bibendum felis, eu consequat nisl neque lacinia ex. Pellentesque sit amet ullamcorper dolor. Suspendisse et bibendum velit.", "url": "/" },
+          { "label": "Analytics", "text": "", "url": "/" },
+          { "label": "Mobile Solution", "text": "", "url": "/" },
+          { "label": "Web Services", "text": "", "url": "/" }
+        ]
+      },
+      "patterns": {
+        "title": "Patterns",
+        "subtitle": "Les études de territoire",
+        "projects": [
+          { "label": "Labs", "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nec nibh pretium, viverra nisi quis, imperdiet turpis. Aliquam facilisis, augue vitae sollicitudin fermentum, dui urna bibendum felis, eu consequat nisl neque lacinia ex. Pellentesque sit amet ullamcorper dolor. Suspendisse et bibendum velit.", "url": "/" },
+          { "label": "Insights", "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nec nibh pretium, viverra nisi quis, imperdiet turpis. Aliquam facilisis, augue vitae sollicitudin fermentum, dui urna bibendum felis, eu consequat nisl neque lacinia ex. Pellentesque sit amet ullamcorper dolor. Suspendisse et bibendum velit.", "url": "/" },
+          { "label": "IQUAD/POCA", "text": "", "url": "/" }
+        ]
+      }
+    }
+  }
+  
