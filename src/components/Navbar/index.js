@@ -18,8 +18,8 @@ export default function Navbar() {
                 <Link to="/projects">ACTUALITES</Link>  
                 <Link to="/projects">CONTACT</Link>   
                 <Link to="/projects">RELEASE NOTES</Link>
-                <Button  size="small"><div className={classes.TranslateFr}>FR</div></Button>
-                <Button size="small"><div className={classes.TranslateEn}>EN</div></Button>
+                {/* <Button  size="small"><div className={classes.TranslateFr}>FR</div></Button>
+                <Button size="small"><div className={classes.TranslateEn}>EN</div></Button> */}
             </div>
         </div>
     </header>

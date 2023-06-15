@@ -5,6 +5,14 @@ import Button from '@mui/material/Button';
 
 
 export default function Footer() {
+    const styleObj = {
+        "&:hover": {
+          backgroundColor: "transparent"
+        },
+        "&:active": {
+          backgroundColor: "transparent"
+        }
+      };
   return (
     <footer className={classes.Footer}>
         <div className={classes.ContentWrapper}>
@@ -16,7 +24,7 @@ export default function Footer() {
                 <Link to="">Confidentialité</Link> 
                 <Link to="">Mentions légales</Link>
                 <Link to="https://www.linkedin.com/company/hovedata/mycompany/verification/">
-                    <Button>
+                    <Button disableRipple sx={styleObj}>
                         <img className={classes.LinkedInProfile} src={'/linkedin.jpg'} alt="" />
                     </Button>
                 </Link>

@@ -1,5 +1,14 @@
 .CardBackground {
     width: 320px;
-    height: 429px;
-    border-radius: 50px;
+    height: 440px;
+    border-radius: 30px;
+    flex-direction: row;
+    justify-content: space-between;
+    order: 0;
+    flex-grow: 0;
+}
+
+.gridContainer {
+    padding-left: "40px";
+    padding-right: "40px";
 }

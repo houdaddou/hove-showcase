@@ -1,8 +1,10 @@
 import * as React from "react"
 import Layout from "../../components/Layout"
-import * as styles from "../../styles/solutions.module.css"
+import * as classes from "../../styles/solutions.module.css"
 import Card from './cardframe';
+import Grid from '@mui/material/Grid';
 import { useState } from 'react';
+import JSONData from "./solutions.json"
 
 
 
@@ -11,31 +13,86 @@ export default function Solutions() {
   
   const [parentData] = useState('/navitia-frame.svg');
   const [patternsFrame] = useState('/patterns-frame.svg');
-  const [patternsRedirectFrame] = useState('/patterns-redirect-frame.svg');
-  const [navitiaRedirectFrame] = useState('/navitia-redirect-frame.svg');
-
-
+  
 
   return (
     <Layout>
     <section>
-      <div className={styles.header}>
-        <h1>NOS SOLUTIONS</h1>
+      <div className={classes.header}>
+        <h1>{JSONData.generalContent.title}</h1>
       </div>
-      <div className={styles.header1}>
-        <h2>Navitia</h2>
-        <h3>Le calculateur d'itinéraire</h3>
-        <Card parentData={parentData}/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-      </div>
-      <div  className={styles.header2}>
-      <h2>Patterns</h2>
-        <h3>Les études de territoire</h3>
-        <Card parentData={patternsFrame}/>
+      <div className={classes.header1}>
+        {/* <h2>{JSONData.generalContent.subtitle}</h2> */}
+        <h2>{JSONData.generalContent.subtitle}</h2>
+        <h3>{JSONData.navitia.title}</h3>
+        <Grid
+          container
+          spacing={1}
+          className={classes.gridContainer}
+        >
 
+        {JSONData.navitia.content.map((navitia, key) => {
+                return (
+                  <div style={{ padding: 20 }}>
+                  <Grid key={key} item>
+                    <Card
+                        key={key}
+                        content={navitia}
+                        parentData={JSONData.navitia}
+                    />
+                    </Grid>
+                    </div>
+                );
+            })}
+          </Grid>
+          <h3>{JSONData.data.title}</h3>
+        <Grid
+          container
+          spacing={1}
+          className={classes.gridContainer}
+          justifyItems="center"
+        >
+
+        {JSONData.data.content.map((data, key) => {
+                return (
+                  <div style={{ padding: 20 }}>
+
+                  <Grid key={key} item>
+                    <Card
+                        key={key}
+                        content={data}
+                        parentData={JSONData.data}
+                    />
+                    </Grid>
+                    </div>
+                );
+            })}
+          </Grid>
+      </div>
+      <div  className={classes.header2}>
+        <h2>Mobility Data</h2>
+        <Grid
+          container
+          spacing={1}
+          className={classes.gridContainer}
+          justifyItems="center"
+        >
+
+        {JSONData.mobilityData.content.map((mobility, key) => {
+                return (
+                  <div style={{ padding: 20 }}>
+
+                  <Grid key={key} item>
+                    <Card
+                        key={key}
+                        content={mobility}
+                        parentData={JSONData.mobilityData}
+                    />
+                    </Grid>
+                    </div>
+                );
+            })}
+          </Grid>
       </div>
     </section>
     </Layout>

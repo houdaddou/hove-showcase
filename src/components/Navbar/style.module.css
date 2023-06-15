@@ -38,7 +38,7 @@
     font-size: 15px;
     line-height: 18px;
     align-items: center;
-    color: rgba(0, 40, 48, 1);
+    color: rgba(0, 40, 48, 1) !important;
     align-items: center;
     text-transform: uppercase;
     flex: none;
@@ -53,11 +53,20 @@
     margin-left: 60px;
 }
 
+
 header a:hover {
-    color: rgba(0, 40, 48, 1);
+    color: rgba(0, 40, 48, 1) !important;
     opacity: 1;
     font-weight: 700;
   }
+
+  header a:active {
+    color: rgba(0, 40, 48, 1) !important;
+    opacity: 1;
+    font-weight: 700;
+  }
+
+
 
   .TranslateFr {
     width: 35px;

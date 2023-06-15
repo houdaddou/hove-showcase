@@ -1,0 +1,73 @@
+{   
+    "generalContent": {
+        "title": "NOS SOLUTIONS",
+        "subtitle": "Information voyageur"
+    },
+    "navitia": {
+        "background": "/navitia-frame.svg",
+        "redirectIcon": "/navitia-redirect-frame.svg",
+        "textColor": "#002830",
+        "title": "Navitia",
+        "content": [
+        {
+        "title": "Navitia",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nec nibh pretium, viverra nisi quis, imperdiet turpis. Aliquam facilisis, augue vitae sollicitudin fermentum, dui urna bibendum felis, eu consequat nisl neque lacinia ex. Pellentesque sit amet ullamcorper dolor. Suspendisse et bibendum velit."
+        },
+        {
+            "title": "Mobile Solution",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nec nibh pretium, viverra nisi quis, imperdiet turpis. Aliquam facilisis, augue vitae sollicitudin fermentum, dui urna bibendum felis, eu consequat nisl neque lacinia ex. Pellentesque sit amet ullamcorper dolor. Suspendisse et bibendum velit."
+
+        },
+        {
+            "title": "Web Services",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nec nibh pretium, viverra nisi quis, imperdiet turpis. Aliquam facilisis, augue vitae sollicitudin fermentum, dui urna bibendum felis, eu consequat nisl neque lacinia ex. Pellentesque sit amet ullamcorper dolor. Suspendisse et bibendum velit."
+
+        },
+        {
+            "title": "Insights",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nec nibh pretium, viverra nisi quis, imperdiet turpis. Aliquam facilisis, augue vitae sollicitudin fermentum, dui urna bibendum felis, eu consequat nisl neque lacinia ex. Pellentesque sit amet ullamcorper dolor. Suspendisse et bibendum velit."
+
+        }
+    ]
+    },
+    "data": {
+        "background": "/navitia-frame.svg",
+        "redirectIcon": "/navitia-redirect-frame.svg",
+        "textColor": "#002830",
+        "title": "Data",
+        "content": [{
+            "title": "Traffic Report",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nec nibh pretium, viverra nisi quis, imperdiet turpis. Aliquam facilisis, augue vitae sollicitudin fermentum, dui urna bibendum felis, eu consequat nisl neque lacinia ex. Pellentesque sit amet ullamcorper dolor. Suspendisse et bibendum velit."
+        },
+        {
+            "title": "Analytics",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nec nibh pretium, viverra nisi quis, imperdiet turpis. Aliquam facilisis, augue vitae sollicitudin fermentum, dui urna bibendum felis, eu consequat nisl neque lacinia ex. Pellentesque sit amet ullamcorper dolor. Suspendisse et bibendum velit."
+        },
+        {
+            "title": "Datahub",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nec nibh pretium, viverra nisi quis, imperdiet turpis. Aliquam facilisis, augue vitae sollicitudin fermentum, dui urna bibendum felis, eu consequat nisl neque lacinia ex. Pellentesque sit amet ullamcorper dolor. Suspendisse et bibendum velit."
+        }
+        ]
+      },
+    "mobilityData": {
+        "background": "/patterns-frame.svg",
+        "redirectIcon": "/patterns-redirect-frame.svg",
+        "textColor": "#FD4703",
+        "title": "Mobility Data",
+
+        "content": [{
+            "title": "Analytics",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nec nibh pretium, viverra nisi quis, imperdiet turpis. Aliquam facilisis, augue vitae sollicitudin fermentum, dui urna bibendum felis, eu consequat nisl neque lacinia ex. Pellentesque sit amet ullamcorper dolor. Suspendisse et bibendum velit."
+        },
+        {
+            "title": "Insights",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nec nibh pretium, viverra nisi quis, imperdiet turpis. Aliquam facilisis, augue vitae sollicitudin fermentum, dui urna bibendum felis, eu consequat nisl neque lacinia ex. Pellentesque sit amet ullamcorper dolor. Suspendisse et bibendum velit."
+        },
+        {
+            "title": "Labs",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nec nibh pretium, viverra nisi quis, imperdiet turpis. Aliquam facilisis, augue vitae sollicitudin fermentum, dui urna bibendum felis, eu consequat nisl neque lacinia ex. Pellentesque sit amet ullamcorper dolor. Suspendisse et bibendum velit."
+        }
+        ]
+    }
+  }
+  
