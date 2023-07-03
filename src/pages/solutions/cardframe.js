@@ -4,11 +4,9 @@ import Button from '@mui/material/Button';
 import CardMedia from '@mui/material/CardMedia';
 import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
-import Fab from '@mui/material/Fab';
 import Typography from '@mui/material/Typography';
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 import * as classes from './style.module.css';
-
 
 
 export default function Cardframe({ parentData, content }) {
@@ -16,12 +14,36 @@ export default function Cardframe({ parentData, content }) {
 
   if (content) {
     const textColor = parentData.textColor;
+    const borderColor = parentData.borderColor;
+    const backgroundColor = parentData.contentColor;
     const textStyle = {
       width: 262,
       color:  textColor,
-      opacity: 0.7,
+      marginBottom: 5,
+      fontWeight: 400,
+      fontSize: 14
     }
+    const titleStyle = {
+      color:  textColor,
+      fontWeight: 600, 
+      fontSize: 20
+    }
+    const cardContentStyle = {
+      border: borderColor, 
+      borderTopRightRadius: 30,
+      backgroundColor: backgroundColor, 
+      borderTopLeftRadius: 30 
+    }
+    const styles = {
+      cardcontent: {
+        padding: 0,
+        "&:last-child": {
+          paddingBottom: 0
+        }
+      }
+    };    
     const styleObj = {
+      paddingBottom: 0,
       "&:hover": {
         backgroundColor: "transparent"
       },
@@ -30,30 +52,30 @@ export default function Cardframe({ parentData, content }) {
       }
     };
   return (
-      <CardMedia image={parentData.background} className={classes.CardBackground}>
-      <CardContent>
-        <Typography sx={{
-          width: 262,
-          color: '#FFFFFF',
-          marginBottom: 5,
-          }} 
-          variant="h5" 
-          component="div">
-          {content.title}
-        </Typography>
-        <Typography sx={textStyle} variant="body2">
+      <div>
+      <CardContent
+        sx={cardContentStyle}
+        >
+          <div className={classes.ContentWrapper}>
+
+                          <img src={content.icon} alt=""></img>    
+        <p style={titleStyle}>
+            {content.title}
+        </p>
+          </div>
+      </CardContent>
+      <CardContent
+              style={{ border: "1px solid rgba(0, 40, 48, 0.1)", borderBottomLeftRadius: 30, borderBottomRightRadius: 30,      }}>        
+          <Typography sx={textStyle} variant="body2">
             {content.text}
         </Typography>
-      </CardContent>
       <CardActions>
       <Button disableRipple sx={styleObj}>         
       < img src={parentData.redirectIcon} alt="" />
       </Button>
-        {/* <Fab  aria-label="add">
-          <ArrowForwardIcon />
-        </Fab> */}
       </CardActions>
-    </CardMedia>
+      </CardContent>
+      </div>
   )
 }
 }

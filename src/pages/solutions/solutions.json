@@ -7,23 +7,29 @@
         "background": "/navitia-frame.svg",
         "redirectIcon": "/navitia-redirect-frame.svg",
         "textColor": "#002830",
+        "contentColor": "#0028301A",
+        "borderColor": "1px solid rgba(0, 40, 48, 0.1)",
         "title": "Navitia",
         "content": [
         {
+        "icon":"/navitia-test-card-title.png",
         "title": "Navitia",
         "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nec nibh pretium, viverra nisi quis, imperdiet turpis. Aliquam facilisis, augue vitae sollicitudin fermentum, dui urna bibendum felis, eu consequat nisl neque lacinia ex. Pellentesque sit amet ullamcorper dolor. Suspendisse et bibendum velit."
         },
         {
+            "icon":"/navitia-test-card-title.png",
             "title": "Mobile Solution",
             "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nec nibh pretium, viverra nisi quis, imperdiet turpis. Aliquam facilisis, augue vitae sollicitudin fermentum, dui urna bibendum felis, eu consequat nisl neque lacinia ex. Pellentesque sit amet ullamcorper dolor. Suspendisse et bibendum velit."
 
         },
-        {
+        {   
+            "icon":"/navitia-test-card-title.png",
             "title": "Web Services",
             "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nec nibh pretium, viverra nisi quis, imperdiet turpis. Aliquam facilisis, augue vitae sollicitudin fermentum, dui urna bibendum felis, eu consequat nisl neque lacinia ex. Pellentesque sit amet ullamcorper dolor. Suspendisse et bibendum velit."
 
         },
-        {
+        {   
+            "icon":"/navitia-test-card-title.png",
             "title": "Insights",
             "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nec nibh pretium, viverra nisi quis, imperdiet turpis. Aliquam facilisis, augue vitae sollicitudin fermentum, dui urna bibendum felis, eu consequat nisl neque lacinia ex. Pellentesque sit amet ullamcorper dolor. Suspendisse et bibendum velit."
 
@@ -34,16 +40,21 @@
         "background": "/navitia-frame.svg",
         "redirectIcon": "/navitia-redirect-frame.svg",
         "textColor": "#002830",
+        "contentColor": "#0028301A",
+        "borderColor": "1px solid rgba(0, 40, 48, 0.1)",
         "title": "Data",
         "content": [{
+            "icon":"/navitia-test-card-title.png",
             "title": "Traffic Report",
             "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nec nibh pretium, viverra nisi quis, imperdiet turpis. Aliquam facilisis, augue vitae sollicitudin fermentum, dui urna bibendum felis, eu consequat nisl neque lacinia ex. Pellentesque sit amet ullamcorper dolor. Suspendisse et bibendum velit."
         },
-        {
+        {   
+            "icon":"/navitia-test-card-title.png",
             "title": "Analytics",
             "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nec nibh pretium, viverra nisi quis, imperdiet turpis. Aliquam facilisis, augue vitae sollicitudin fermentum, dui urna bibendum felis, eu consequat nisl neque lacinia ex. Pellentesque sit amet ullamcorper dolor. Suspendisse et bibendum velit."
         },
-        {
+        {   
+            "icon":"/navitia-test-card-title.png",
             "title": "Datahub",
             "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nec nibh pretium, viverra nisi quis, imperdiet turpis. Aliquam facilisis, augue vitae sollicitudin fermentum, dui urna bibendum felis, eu consequat nisl neque lacinia ex. Pellentesque sit amet ullamcorper dolor. Suspendisse et bibendum velit."
         }
@@ -53,17 +64,21 @@
         "background": "/patterns-frame.svg",
         "redirectIcon": "/patterns-redirect-frame.svg",
         "textColor": "#FD4703",
+        "contentColor": "#FD47031A",
+        "borderColor": "1px solid rgba(253, 71, 3, 0.1)",
         "title": "Mobility Data",
-
         "content": [{
+            "icon":"/patterns-test-card-title.png",
             "title": "Analytics",
             "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nec nibh pretium, viverra nisi quis, imperdiet turpis. Aliquam facilisis, augue vitae sollicitudin fermentum, dui urna bibendum felis, eu consequat nisl neque lacinia ex. Pellentesque sit amet ullamcorper dolor. Suspendisse et bibendum velit."
         },
-        {
+        {   
+            "icon":"/patterns-test-card-title.png",
             "title": "Insights",
             "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nec nibh pretium, viverra nisi quis, imperdiet turpis. Aliquam facilisis, augue vitae sollicitudin fermentum, dui urna bibendum felis, eu consequat nisl neque lacinia ex. Pellentesque sit amet ullamcorper dolor. Suspendisse et bibendum velit."
         },
-        {
+        {   
+            "icon":"/patterns-test-card-title.png",
             "title": "Labs",
             "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nec nibh pretium, viverra nisi quis, imperdiet turpis. Aliquam facilisis, augue vitae sollicitudin fermentum, dui urna bibendum felis, eu consequat nisl neque lacinia ex. Pellentesque sit amet ullamcorper dolor. Suspendisse et bibendum velit."
         }

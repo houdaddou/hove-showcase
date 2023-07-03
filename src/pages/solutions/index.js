@@ -5,6 +5,7 @@ import Card from './cardframe';
 import Grid from '@mui/material/Grid';
 import { useState } from 'react';
 import JSONData from "./solutions.json"
+import CardMedia from '@mui/material/CardMedia';
 
 
 
@@ -16,14 +17,13 @@ export default function Solutions() {
   
 
   return (
+    <CardMedia image={'/solution_navitia_background.svg'}>
     <Layout>
     <section>
       <div className={classes.header}>
         <h1>{JSONData.generalContent.title}</h1>
       </div>
       <div className={classes.header1}>
-        {/* <h2>{JSONData.generalContent.subtitle}</h2> */}
-        <h2>{JSONData.generalContent.subtitle}</h2>
         <h3>{JSONData.navitia.title}</h3>
         <Grid
           container
@@ -70,7 +70,6 @@ export default function Solutions() {
           </Grid>
       </div>
       <div  className={classes.header2}>
-        <h2>Mobility Data</h2>
         <Grid
           container
           spacing={1}
@@ -96,5 +95,6 @@ export default function Solutions() {
       </div>
     </section>
     </Layout>
+    </CardMedia>
   )
 }
